@@ -1,0 +1,215 @@
+@font-face {
+    font-family: chalky-italic;
+    src: url("fonts/ChalkBoldItalic.woff") format("woff");
+}
+@font-face {
+    font-family: chalky-2;
+    src: url("fonts/CHAWP.woff") format("woff");
+}
+@font-face {
+    font-family: nav-font;
+    src: url("fonts/Florentia-Black.woff") format("woff");
+}
+/****************header-bar****************/
+#header-bar{
+    background-image: url("img/bg-menu-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#header-bar p{
+    color: white;
+}
+
+
+#contact img{
+    width: 18px;
+    hight: 18px;
+}
+#contact p{
+    font-size: 14px;
+}
+.phone{
+    margin-bottom: 8px;
+}
+.address{
+    margin-bottom: 8px;
+}
+#follow-us{
+    margin-top: 18px;
+}
+#fb{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/****************nav-bar****************/
+
+.navbar{
+    z-index: 10;
+    font-family: nav-font;
+    font-weight: bolder;
+    font-size: 24px;
+
+}
+.navbar-brand img{
+    max-width: 150px;
+}
+#navbarResponsive a:hover{
+    color: #dc3545;
+    text-decoration: red;
+}
+
+
+/****************carousel****************/
+.carousel-item{
+    height: 100vh;
+}
+.carousel-item img{
+    height: 100%;
+}
+
+/****************Menu-section****************/
+#menu{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url("img/bg-menu-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#menu a{
+    color: white;
+}
+.container {
+    overflow: hidden;
+}
+
+
+/* Style the buttons */
+.btn {
+    position: center;
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    display: inline-block;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #dc3545;
+}
+/* Add a light grey background on mouse-over */
+.btn:hover {
+    background-color: #ddd; /*ddd */
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+    background-color: #666; /*666*/
+    color: white;
+}
+/****************services-section****************/
+.service-section {
+    padding: 100px 0 54px;
+    background-image: url("img/bg-menu-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    position: relative;
+    text-transform: capitalize;
+}
+.section-title h2:before {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+.section-title h2:after, .section-title h2:before {
+    content: "";
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+}
+.section-title h2:after {
+    background-color: white;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+.single-service {
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+.single-service-inner {
+    padding: 40px 15px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.single-service i {
+    color: #ff305b;
+    display: block;
+    font-size: 36px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.single-service-inner > h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.single-service-inner > p {
+    margin: 0;
+}
+.single-service:hover .single-service-inner i {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.single-service:hover .single-service-inner {
+    background: #ffffff none repeat scroll 0 0;
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+}
+
+
+/****************reservation-section****************/
+#reservation{
+    padding: 100px 0 54px;
+    background-image: url("img/bg-menu-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.res-bg h1{
+    padding-left: 20px;
+}
+.res-bg p{
+    color: #f1f1f1;
+    font-family: chalky-2, sans-serif;
+}
+.text-container{
+    width: 700px;
+    height: 500px;
+    position: center;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+.text-container p,h1,h2{
+    color: white;
+    font-family: chalky-2, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
